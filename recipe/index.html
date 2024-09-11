@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes app</title>
+    <style>
+        #items-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .ItemContainer{
+            width: 300px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+        .ItemContainer img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main-div">
+        <!-- search -->
+        <div id="search">
+            <input type="text" id="item-search" placeholder="Search Here For A Item You Missed" value="">
+        </div>
+        <!-- random -->
+        <div id="random">
+            <!-- 
+                <img src alt >
+             -->
+        </div>
+        <!-- Search By List -->
+        <div id="list">
+            <input id="Cat-Area" placeholder="Search By Area" type="text"></input>
+            <!-- <input id="Cat-Main-Ing" type="text" placeholder="Search By Main Ingradiant"></input> -->
+            <input id="Cat-1st-letter" type="text" placeholder="Seach By First Letter"></input>
+        </div>
+        <!-- Main Container -->
+        <div id="items-container">
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
